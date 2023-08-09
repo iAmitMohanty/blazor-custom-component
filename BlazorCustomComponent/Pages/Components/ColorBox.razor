@@ -1,0 +1,13 @@
+﻿<div class="color-box" style="background-color: @BackgroundColor;">
+    <h3>@Title</h3>
+</div>
+
+@code {
+    #nullable disable
+
+    [Parameter]
+    public string Title { get; set; }
+
+    [Parameter]
+    public string BackgroundColor { get; set; } = "lightgray";
+}

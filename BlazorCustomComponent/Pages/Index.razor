@@ -1,0 +1,25 @@
+﻿@page "/"
+@using BlazorCustomComponent.Pages.Components
+
+<PageTitle>Index</PageTitle>
+
+<WelcomeMessage Name="Amit Mohanty" />
+
+Welcome to your new app.
+
+
+<h3>Custom Component Example</h3>
+
+<ColorBox Title="Blue Box" BackgroundColor="blue" />
+<ColorBox Title="Green Box" BackgroundColor="green" />
+<ColorBox Title="Red Box" BackgroundColor="red" />
+
+
+<SubmitButton ButtonText="Click Me" ButtonClass="btn-success" OnClick="HandleClick" />
+
+@code {
+    private void HandleClick(MouseEventArgs args)
+    {
+        // Handle the button click event
+    }
+}
