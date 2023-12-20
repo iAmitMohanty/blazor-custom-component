@@ -18,7 +18,7 @@ The Blazor Custom Component project demonstrates the process of creating, implem
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your_username/blazor-custom-component.git`
+1. Clone the repository: `git clone https://github.com/iAmitMohanty/blazor-custom-component.git`
 2. Navigate to the project directory.
 3. Open the project in your preferred IDE or text editor.
 4. Ensure you have the necessary .NET SDK and Blazor dependencies installed.
